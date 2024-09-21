@@ -15,8 +15,12 @@ h2 {
 }
 
 .card-div{
-
+    transition-duration: 300ms;
     min-width: 310px;
+}
+
+.card-div:hover {
+    scale: 1.02;
 }
 
 .custom-card img,
