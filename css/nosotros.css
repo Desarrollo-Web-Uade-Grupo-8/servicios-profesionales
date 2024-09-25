@@ -19,6 +19,11 @@ h5{
     min-height: 48px;
 }
 
+a{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 @media (max-width: 576px) {
     .card-container {
         margin-left: 10px;
