@@ -1,5 +1,7 @@
 .card-body {
     padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #425480;
     color: white;
     border-radius: 30px;
@@ -8,11 +10,13 @@
 .card-container{
     background-color: #425480;
     border-radius: 30px;
+    margin-top: 8%;
 }
 
 h2 {
     font-weight: bold;
     color: #333;
+    font-size: 50px;
 }
 
 h5{
@@ -24,12 +28,32 @@ h5{
     margin: 0 auto;
 }
 
+.custom-buttom {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
 @media (max-width: 576px) {
     .card-container {
         margin-left: 10px;
         margin-right: 10px;
 
     }
+
+    .card-body {
+        padding: 20px;
+        background-color: #425480;
+        color: white;
+        border-radius: 30px;
+    }
+
+    .custom-buttom {
+        min-width: 5em;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
 }
 
 @media (max-width: 800px) {
