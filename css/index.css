@@ -20,8 +20,13 @@ main::before {
     z-index: -1; /* Para que quede detrás del contenido */
 }
 
+.custom-shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+
 @media (max-width: 768px){
     .container{
 
     }
+
 }
