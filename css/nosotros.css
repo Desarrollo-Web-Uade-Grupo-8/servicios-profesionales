@@ -2,7 +2,12 @@
     padding: 20px;
     background-color: #425480;
     color: white;
-    border-radius: 15px;
+    border-radius: 30px;
+}
+
+.card-container{
+    background-color: #425480;
+    border-radius: 30px;
 }
 
 h2 {
@@ -10,30 +15,13 @@ h2 {
     color: #333;
 }
 
-.custom-card {
-    min-height: 350px;
+h5{
+    min-height: 48px;
 }
 
-.card-div{
-    transition-duration: 300ms;
-    min-width: 310px;
-}
-
-.card-div:hover {
-    scale: 1.02;
-}
-
-.custom-card img,
-.custom-card h5 {
-    margin-bottom: 15px;
-}
-
-.custom-card .btn {
-    margin-right: 10px;
-    width: calc(45%);
-}
-
-.buttons{
-    display: flex;
-    width: 100%;
+@media (max-width: 576px) {
+    .card-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
