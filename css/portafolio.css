@@ -38,12 +38,12 @@ h2 {
   }
 
 .tech-icon {
-    text-align: center; /* Centra el contenido */
+    text-align: center; 
 }
 
 .d-flex {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    flex-wrap: wrap; 
 }
 
 .card {
@@ -94,5 +94,10 @@ h2 {
     
     .tech-icon {
         flex: 0 0 50%;
+    }
+
+    .img-proyecto {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
