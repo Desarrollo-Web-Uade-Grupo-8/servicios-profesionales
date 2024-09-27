@@ -36,45 +36,89 @@
             </div>
         </nav>
     </header>
-    <main class="flex-grow-1 d-flex justify-content-center align-items-center">
-        <section class="soporte">
+    <main class="container-fluid p-0"> <!-- Añadimos la clase container-fluid para que ocupe toda la pantalla -->
+
+        <!-- Título principal -->
+        <section class="text-center my-5">
             <h1>Soporte</h1>
-            <div class="header-bar">
-                <p class="header-text">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+
+        <!-- Sección superior con banner -->
+        <section class="text-center banner">
+            <div class="container">
+                <p class="lead">Asegura el éxito de tu negocio con nuestro servicio de soporte integral. Nuestro equipo de expertos 
+                    está listo para resolver cualquier problema y optimizar tus recursos tecnológicos, permitiéndote enfocarte en lo 
+                    que realmente importa: el crecimiento de tu negocio. 
+                </p>
+                <p>Con nosotros, puedes tener la tranquilidad de que tu 
+                    infraestructura tecnológica está en manos confiables.
+                </p>
+                <p>¡Confía en nosotros y mantén tu tecnología en su 
+                    mejor forma!
+                </p>
             </div>
-            <div class="support-icons">
-                <div class="support-item">
-                    <img src="/servicios-profesionales/images/software.png" alt="Mantenimiento de Software">
-                    <h2>Mantenimiento de Software</h2>
+        </section>
+
+        <!-- Sección de Mantenimiento de Software con tres íconos -->
+        <section class="software-section text-center my-5">
+            <h2 class="mb-4">Nuestras Soluciones de Soporte</h2>
+            <div class="row justify-content-center icons-row">
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="#Icono1"><img src="images/computadora.png" class="img-fluid" alt="Servicio 1"></a>
+                    <a href="#Icono1" class="texto-servicio"><p>Mantenimiento y Soporte de Software</p></a>
                 </div>
-                <div class="support-item">
-                    <img src="/servicios-profesionales/images/software.png" alt="Soporte Técnico">
-                    <h2>Soporte Técnico</h2>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="#Icono2"><img src="images/computadora (1).png" class="img-fluid" alt="Servicio 2"></a>
+                    <a href="#Icono2" class="texto-servicio"><p>Administración de Servidores y Bases de Datos</p></a>
                 </div>
-                <div class="support-item">
-                    <img src="/servicios-profesionales/images/software.png" alt="Mesa de Ayuda">
-                    <h2>Mesa de Ayuda</h2>
-                </div>
-            </div>
-            <div class="support-descriptions">
-                <div class="description">
-                    <img src="/servicios-profesionales/images/software.png" alt="Mantenimiento de Software">
-                    <p>Mantenimiento y Soporte de Software. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                    </p>
-                </div>
-                <div class="description">
-                    <img src="/servicios-profesionales/images/software.png" alt="Soporte Técnico">
-                    <p>Administración de Servidores y Bases de Datos. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-                </div>
-                <div class="description">
-                    <img src="/servicios-profesionales/images/software.png" alt="Mesa de Ayuda">
-                    <p>Seguridad Informática. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="#Icono3"><img src="images/computadora (2).png" class="img-fluid" alt="Servicio 3"></a>
+                    <a href="#Icono3" class="texto-servicio"><p>Seguridad Informática</p></a>
                 </div>
             </div>
         </section>
+
+        <!-- Sección con imágenes grandes y descripciones -->
+        <section class="especificaciones-servicio">
+            <div class="row justify-content-center mb-5 icono+descripcion">
+                <div class="col-12 col-md-3 text-center">
+                    <img src="images/computadora.png" class="icono-circular" alt="Icono 1" id="Icono1">
+                </div>
+                <div class="col-12 col-md-9 icon-text">
+                    <p>Nuestro servicio de Mantenimiento y Soporte de Software garantiza que tus aplicaciones funcionen sin problemas. 
+                        Nos encargamos de actualizaciones, correcciones de errores y asistencia técnica para maximizar la eficiencia 
+                        y productividad de tu equipo. Con nuestro soporte, puedes estar seguro de que tu software siempre estará 
+                        al día y optimizado.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 col-md-3 text-center">
+                    <img src="images/computadora (1).png" class="icono-circular" alt="Icono 2" id="Icono2">
+                </div>
+                <div class="col-12 col-md-9 icon-text">
+                    <p>Aseguramos el rendimiento y la seguridad de tu infraestructura tecnológica con nuestra Administración de Servidores 
+                        y Bases de Datos. Nuestro equipo gestiona la configuración, el monitoreo y la optimización de tus servidores y bases de datos, 
+                        garantizando un funcionamiento estable y seguro, y asegurando que tus datos estén siempre disponibles cuando los necesites.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 col-md-3 text-center">
+                    <img src="images/computadora (2).png" class="icono-circular" alt="Icono 3" id="Icono3">
+                </div>
+                <div class="col-12 col-md-9 icon-text">
+                    <p>
+                        Protege tu negocio contra ciberamenazas con nuestro servicio de Seguridad Informática. Implementamos medidas de seguridad robustas 
+                        para salvaguardar tu infraestructura tecnológica y datos críticos. Nuestro equipo se encarga de monitorear, identificar y mitigar 
+                        riesgos, asegurando que tu empresa esté protegida contra ataques y brechas de seguridad.
+                    </p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="bg-dark text-white text-center py-4 mt-auto">
