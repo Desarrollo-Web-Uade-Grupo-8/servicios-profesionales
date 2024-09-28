@@ -15,11 +15,12 @@ h2 {
     background-color: #425480;
     color: white;
     border-radius: 15px;
+    font-size: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.service-box img {
+    max-height: 190px;
+    width: auto;
     border-radius: 10px;
 }
 
@@ -36,11 +37,15 @@ img {
 @media (max-width: 768px) {
     
     h2 {
-        font-size: 28px;
+        font-size: 40px;
+    }
+
+    .service-box {
+        font-size: 18px;
     }
 
     .box-descripcion {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     

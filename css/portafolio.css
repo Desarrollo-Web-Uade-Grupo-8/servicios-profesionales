@@ -56,8 +56,24 @@ h2 {
 }
 
 .card-img-top {
-    max-width: auto;
     max-height: 250px;
+}
+
+@media (max-width: 1400px){
+
+    .card-img-top {
+        max-height: 220px;
+    }
+    
+}
+
+
+@media (max-width: 1280px){
+
+    .card-img-top {
+        max-height: 220px;
+    }
+    
 }
 
 @media (max-width: 1200px) {
@@ -66,6 +82,11 @@ h2 {
         height: 120px;
         margin: 0 20px
       }
+
+      .card-img-top {
+        max-height: 120px;
+    }
+    
 }
   
 
@@ -78,6 +99,10 @@ h2 {
         line-height: 45px;
         padding: 0.5em 2em;
         justify-content: center;
+    }
+
+    .card-img-top{
+        max-height: 175px;
     }
 
     .tech-icon img {
