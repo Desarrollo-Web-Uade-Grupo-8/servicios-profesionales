@@ -40,6 +40,7 @@ main p {
     max-width: 100%; 
     width: 200px;
     height: auto; 
+}
 
 .icons-row a {
     color: white;   
@@ -60,6 +61,4 @@ main p {
     max-width: 60%;
     margin-top: 60px;
     text-align: center;
-}
-
 }
